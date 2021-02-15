@@ -1,0 +1,24 @@
+{
+  "name": "coursework-2",
+  "version": "1.0.0",
+  "description": "Individual coursework 2",
+  "main": "server.js",
+  "scripts": {
+    "test": "start",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Junaidisgood/cw2.git"
+  },
+  "author": "Junaid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Junaidisgood/cw2/issues"
+  },
+  "homepage": "https://github.com/Junaidisgood/cw2#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.4"
+  }
+}
