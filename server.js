@@ -42,7 +42,7 @@ app.get('/collection/:collectionName', (req, res, next) => {
 })
 
 //posting new data to the collection
-app.post('/collection/:collectionName/:id', (req, res, next) => {
+app.post('/collection/:collectionName', (req, res, next) => {
     req.collection.insert(req.body, (e, results) => { 
         if (e) return next(e)    
         res.send(results.ops) 
